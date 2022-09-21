@@ -1,0 +1,6 @@
+# Errors
+# https://jsonapi.org/format/#errors
+# https://github.com/jmlue42/spectral-jsonapi-ruleset
+
+extends:
+  - jsonapi-errors-error-object.yaml

@@ -1,0 +1,12 @@
+
+
+rules:
+ uri-path-must-include-version:
+    description: The uri path must include the version
+    message: '{{description}}; {{property}} should start with /v{digit}/'
+    severity: error
+    given: '$.paths[*]~'
+    then:
+      function: pattern
+      functionOptions:
+        match: '^/v\d/.*$'

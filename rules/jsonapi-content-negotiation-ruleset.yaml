@@ -1,0 +1,7 @@
+# Content Negotiation
+# https://jsonapi.org/format/#content-negotiation
+# https://github.com/jmlue42/spectral-jsonapi-ruleset
+
+extends:
+  - jsonapi-content-negotiation-clients.yaml
+  - jsonapi-content-negotiation-servers.yaml
